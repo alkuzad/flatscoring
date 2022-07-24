@@ -1,0 +1,72 @@
+---
+locations:
+  Obecna Praca:
+    lat: 51.10024193893899
+    lon: 17.030905634325183
+  Rynek:
+    lat: 51.110146411461564
+    lon: 17.03183668871486
+  Dworzec:
+    lat: 51.09877387163359
+    lon: 17.036514707174717
+arrival_travels:
+  Do Pracy samochodem:
+    to: Obecna Praca
+    transporation: driving
+    time: 2022-07-19T07:00:00.000Z
+  Do Pracy na piechote:
+    to: Obecna Praca
+    transporation: walking
+    time: 2022-07-19T07:00:00.000Z
+  Do Pracy transportem publicznym:
+    to: Obecna Praca
+    transporation: public_transport
+    time: 2022-07-19T07:00:00.000Z
+    settings:
+      max_changes: 2
+  Na Rynek samochodem w piatek:
+    to: Rynek
+    transporation: driving
+    time: 2022-07-22T16:00:00.000Z
+  Na Rynek na piechote w piatek:
+    to: Rynek
+    transporation: walking
+    time: 2022-07-22T16:00:00.000Z
+  Na Rynek transportem publicznym w piatek:
+    to: Rynek
+    transporation: public_transport
+    time: 2022-07-22T16:00:00.000Z
+    settings:
+      max_changes: 3
+  Na Rynek samochodem w sobote:
+    to: Rynek
+    transporation: driving
+    time: 2022-07-23T16:00:00.000Z
+  Na Rynek na piechote w sobote:
+    to: Rynek
+    transporation: walking
+    time: 2022-07-23T16:00:00.000Z
+  Na Rynek transportem publicznym w sobote:
+    to: Rynek
+    transporation: public_transport
+    time: 2022-07-23T16:00:00.000Z
+    settings:
+      max_changes: 2
+  Na Dworzec samochodem w piatek:
+    to: Rynek
+    transporation: driving
+    time: 2022-07-23T16:00:00.000Z
+settings:
+  travel_time: 3600
+  range:
+    enabled: false
+    width: 3600
+    max_results: 1
+  transportation:
+    walking_time: 900
+    cycling_time_to_station: 1
+    parking_time: 0
+    boarding_time: 0
+    driving_time_to_station: 1800
+    pt_change_delay: 0
+    disable_border_crossing: false
